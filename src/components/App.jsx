@@ -5,6 +5,7 @@ import Contacts from './sections/Contacts';
 import Education from './sections/Education';
 import Job from './sections/Job';
 import processFD from '../utilities/processFD';
+import '../styles/App.css'
 
 export default function App() {
   const [info, setInfo] = useState(propInfo);

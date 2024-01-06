@@ -1,5 +1,3 @@
-import '../../styles/Display.css';
-
 export default function Display({info, jobInfo, handleEdit}) {
   let counter = 0;
   const infoJsx = [];
